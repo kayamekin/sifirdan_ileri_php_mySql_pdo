@@ -1,0 +1,3 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^(klasor)/(adres).html$ index.php?d=$1&a=$2 [L]

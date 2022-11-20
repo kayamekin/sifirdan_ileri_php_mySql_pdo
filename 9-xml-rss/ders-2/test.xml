@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<bilgiler>
+    <personel>
+
+        <adsoyad>AHMET VELİ</adsoyad>
+        <departman>yazılım destek uzmanı</departman>
+
+    </personel>
+
+    <personel>
+        <adsoyad>Mekin Kaya</adsoyad>
+        <departman>yazılım destek uzmanı</departman>
+    </personel>
+
+    <personel>
+        <adsoyad>Demir özgül</adsoyad>
+        <departman>IT uzmanı</departman>
+    </personel>
+</bilgiler>

@@ -1,0 +1,42 @@
+query ile
+
+include "ayar.php";
+$sql = "INSERT INTO uye_listesi SET ad='şaşıgöz' , soyad='hayati', sehir='danimarka' ";
+$veri = $db->query($sql);
+if($veri){
+    echo "işlem okey";
+}else{
+    echo "başarısız";
+}
+
+
+prepare ile 
+
+include "ayar.php";
+$sql = "INSERT INTO uye_listesi SET ad=? , soyad=?, sehir=? ";
+$veri = $db->prepare($sql);
+$veri->execute(array(
+"mekin","hayati","neon"
+));
+
+
+
+include "ayar.php";
+
+$sql = "INSERT INTO uye_listesi SET ad=:a , soyad=:s, sehir=:se ";
+$veri = $db->prepare($sql);
+$veri->execute(array(
+    "a"=>"mekin",
+    "s"=>"hayati",
+    "se"=>"neon"
+));
+
+
+include "ayar.php";
+
+$sql = $db->prepare("INSERT INTO uye_listesi SET ad=:a , soyad=:s, sehir=:se ");
+$veri->execute(array(
+    "a"=>"mekin",
+    "s"=>"hayati",
+    "se"=>"neon"
+));

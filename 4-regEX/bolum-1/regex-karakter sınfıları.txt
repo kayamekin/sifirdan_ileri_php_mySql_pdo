@@ -1,0 +1,23 @@
+[abc] 
+a, b veya c ile eşleşecektir,
+
+[a-z]
+küçük harfli metinler ile eşleşme yapar
+
+[A-Z]
+büyük harfli metinler ile eşleşme yapar
+
+[0-9]
+tüm sayısal ifadelerle eşleşecektir
+
+[a-z 0-9]
+tüm sayısal ifadelerle eşleşecektir
+
+
+[a-z\-\.]
+küçük harfli metinlerle, tire ve nokta ile eşleşme yapar.
+_____________________________________________________________
+
+
+
+

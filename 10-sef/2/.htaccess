@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^([0-9]+)$ index.php?sayfa=$1 [L]
+RewriteRule ^([a-z0-9\-]+)$ kategori.php?kategoriAdi=$1 [L]
+RewriteRule ^([a-z0-9\-]+)/([0-9]+)$ kategori.php?kategoriAdi=$1&sayfa=$2 [L]
+RewriteRule ^([a-z0-9\-]+)/([a-z0-9\-]+).html$ oku.php?kategoriAdi=$1&makale=$2 [L]

@@ -1,0 +1,108 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#basarili {
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    background-color: #da8e1d;
+    box-shadow: 10px 20px 15px #da8e1d;
+    animation: anime 4s;
+    border-radius: 20px;
+    display: none;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+
+}
+
+#hata {
+    padding: 20px;
+    margin: 0 auto;
+    position: absolute;
+    background-color: #da1d1d;
+    box-shadow: 10px 20px 15px #da8e1d;
+    border-radius: 20px;
+    display: none;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+}
+
+@keyframes anime {
+
+    0% {
+        width: 1000px;
+        height: 200px;
+    }
+
+    25% {
+        width: 800px;
+        height: 300px;
+    }
+
+    50% {
+        width: 200px;
+        padding: 200px;
+        height: 200px;
+        border-radius: 100%;
+    }
+
+    75% {
+        width: 600px;
+        height: 400px;
+    }
+
+    100% {
+        margin-left: 500px;
+        width: 200px;
+        height: 100px;
+    }
+
+
+}
+
+.form {
+    width: 400px;
+    margin: auto;
+    background-color: #ffffff;
+    border: none;
+    padding: 20px;
+    transition: 1s;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 10px 20px 15px black;
+}
+
+input {
+    padding: 20px;
+    border: none;
+    border-bottom: solid 1px gray;
+    outline: 0;
+}
+
+textarea {
+    outline: 0;
+    border: none;
+    border-bottom: 1px gray solid;
+    transition: 1s;
+    padding: 0 20px;
+
+}
+
+textarea:focus {
+    padding: 20px;
+    background-color: gray;
+}
+
+.text {
+    transition: 1s;
+}
+
+.text:hover {
+    transform: skew(10deg);
+    color: gray;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}

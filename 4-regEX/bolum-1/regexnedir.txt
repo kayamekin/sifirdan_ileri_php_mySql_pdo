@@ -1,0 +1,38 @@
+<!-- REGEX FONKSYİONLARI -->
+
+<!-- 
+       PREG_MATCH
+       regEx koşulunu metne uygular. Sadece bir defa işlem görür ve sonuç bulunursa dizi değişken olarak döner
+
+       preg_match_all
+       koşulunu metne uygular.
+       birden fazla işlem görür ve desene uygun olan tüm sonuçları diziye ekler
+
+       preg_replace
+       bul ve değiştir işlemini regex uygunluğuna göre yapar.
+       çalışma sistemi str_replace ile aynıdır.
+
+       preg_split ->str_split 
+       ile aynıdır bölme işlemi yapar
+
+       preg_grep 
+       koşula uyan dizi elemanlarını seçmektedir.
+
+       preg_quote 
+       düzenli ifade ile sorgulanacak metin içerisinde hataya sebep verecek özel karakterleri önler
+
+
+ -->
+
+
+ <?php
+
+
+
+
+
+
+
+
+
+?>

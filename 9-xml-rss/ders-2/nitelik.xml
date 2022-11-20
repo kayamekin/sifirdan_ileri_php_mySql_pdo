@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<bilgiler>
+    <personel isim=" AHMET VELİ" departman="yazılım destek uzmanı"></personel>
+
+    <personel isim="Mekin Kaya" departman="yazılım destek uzmanı"></personel>
+
+    <personel isim=" Demir özgül" departman="IT uzmanı"></personel>
+
+
+</bilgiler>
