@@ -1,10 +1,10 @@
 
 <?php
 
-$ornek = "GÖT GÖT GÖT ,,, göt göt göt ,,, şerefsiz ,, ahlaksız ,,küfür ";
+$ornek = "KÖTÜ KÖTÜ KÖTÜ ,,, kötü kötü kötü ,,, şerefsiz ,, ahlaksız ,,küfür ";
 
 $uygunsuz_kelimeler = str_replace(
-array("göt","GÖT", "şerefsiz","ahlaksız","küfür"),
+array("kötü","KÖTÜ", "şerefsiz","ahlaksız","küfür"),
 array("SANSÜR","SANSÜR","ş.....","a......","k....."), $ornek);
 
 
